@@ -6,7 +6,8 @@ import (
 
 func main() {
 	//day1.Main()
-	// Part 1 & 2
-	day2.Main(false)
+	// Part 1
+	//day2.Main(false)
+	// Part 2
 	day2.Main(true)
 }
