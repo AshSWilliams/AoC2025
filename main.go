@@ -1,14 +1,12 @@
 package main
 
 import (
-	"aoc/day1"
-	"flag"
+	"aoc/day2"
 )
 
 func main() {
-	puzzleDay := flag.Int("day", 1, "Day to solve")
-	switch *puzzleDay {
-	case 1:
-		day1.Main()
-	}
+	//day1.Main()
+	// Part 1 & 2
+	day2.Main(false)
+	day2.Main(true)
 }
