@@ -22,7 +22,6 @@ func highestFromSubstring(ss []string) (int, int) {
 			highestIx = ix
 		}
 	}
-	fmt.Printf("Found highest digit %d at ix %d from substring %s\n", highest, highestIx, ss)
 	return highest, highestIx + 1
 }
 
@@ -44,7 +43,6 @@ func findHighestFromBattery(battery []string, N int) int {
 	if err != nil {
 		log.Fatalf("Failed to convert joltage %s", switchedOn)
 	}
-	fmt.Printf("Battery %v has highest possible joltage %d\n", battery, joltage)
 	return joltage
 }
 
